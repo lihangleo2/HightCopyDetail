@@ -1,0 +1,22 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+
+    <style name="WhiteFront_green_AppTheme" parent="Theme.AppCompat.Light">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowContentTransitions">true</item>
+        <item name="colorPrimary">@color/black</item> <!-- 系统toolbar上的字体颜色值 -->
+        <item name="colorPrimaryDark">@color/white</item>   <!-- 状态栏背景颜色 -->
+        <item name="colorAccent">@color/colorPrimary</item>  <!-- 指的是手指按下，系统控件的颜色值 -->
+        <item name="android:windowBackground">@color/white</item> <!-- 设置app背景颜色的默认值 -->
+    </style>
+
+</resources>

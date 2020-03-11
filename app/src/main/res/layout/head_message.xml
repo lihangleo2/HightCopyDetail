@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <data>
+
+    </data>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:background="@color/yellow_c9"
+            android:paddingLeft="@dimen/dp_20"
+            android:paddingRight="@dimen/dp_20"
+            android:paddingTop="@dimen/dp_10"
+            android:paddingBottom="@dimen/dp_10"
+            android:text="温馨提示：商品包装因厂家更换频繁，如有不符请以实物为准"
+            android:textColor="#E68A1B"
+            android:textSize="@dimen/sp_14" />
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#f7f7f7"
+            android:paddingLeft="@dimen/dp_20"
+            android:paddingTop="@dimen/dp_13"
+            android:paddingRight="@dimen/dp_20"
+            android:paddingBottom="@dimen/dp_13">
+
+
+            <TextView
+                android:id="@+id/txt_sys_tongyong"
+                android:layout_width="@dimen/dp_75"
+                android:layout_height="wrap_content"
+                android:text="通用名"
+                android:textColor="#B4B4B4"
+                android:textSize="@dimen/sp_13" />
+
+            <TextView
+                android:id="@+id/txt_tongyong"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/txt_sys_tongyong"
+                android:layout_toRightOf="@+id/txt_sys_tongyong"
+                android:text="xxxxxx"
+                android:textColor="@color/black1b"
+                android:textSize="@dimen/sp_13" />
+
+
+            <TextView
+                android:id="@+id/txt_sys_pingpai"
+                android:layout_width="@dimen/dp_75"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txt_tongyong"
+                android:layout_marginTop="@dimen/dp_15"
+                android:text="商品品牌"
+                android:textColor="#B4B4B4"
+                android:textSize="@dimen/sp_13" />
+
+            <TextView
+                android:id="@+id/txt_pingpai"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/txt_sys_pingpai"
+                android:layout_toRightOf="@+id/txt_sys_pingpai"
+                android:text="xxxxxx"
+                android:textColor="@color/black1b"
+                android:textSize="@dimen/sp_13" />
+
+
+            <TextView
+                android:id="@+id/txt_sys_wenhao"
+                android:layout_width="@dimen/dp_75"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txt_pingpai"
+                android:layout_marginTop="@dimen/dp_15"
+                android:text="批准文号"
+                android:textColor="#B4B4B4"
+                android:textSize="@dimen/sp_13" />
+
+            <TextView
+                android:id="@+id/txt_wenhao"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/txt_sys_wenhao"
+                android:layout_toRightOf="@+id/txt_sys_wenhao"
+                android:text="国药准字329348344303400"
+                android:textColor="@color/black1b"
+                android:textSize="@dimen/sp_13" />
+
+            <TextView
+                android:id="@+id/txt_sys_guige"
+                android:layout_width="@dimen/dp_75"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txt_wenhao"
+                android:layout_marginTop="@dimen/dp_15"
+                android:text="包装规格"
+                android:textColor="#B4B4B4"
+                android:textSize="@dimen/sp_13" />
+
+            <TextView
+                android:id="@+id/txt_guige"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/txt_sys_guige"
+                android:layout_toRightOf="@+id/txt_sys_guige"
+                android:text="10gX9袋/盒"
+                android:textColor="@color/black1b"
+                android:textSize="@dimen/sp_13" />
+
+
+            <TextView
+                android:id="@+id/txt_sys_xinhao"
+                android:layout_width="@dimen/dp_75"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txt_sys_guige"
+                android:layout_marginTop="@dimen/dp_15"
+                android:text="剂型/型号"
+                android:textColor="#B4B4B4"
+                android:textSize="@dimen/sp_13" />
+
+            <TextView
+                android:id="@+id/txt_xinhao"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/txt_sys_xinhao"
+                android:layout_toRightOf="@+id/txt_sys_xinhao"
+                android:text="容颗粒剂"
+                android:textColor="@color/black1b"
+                android:textSize="@dimen/sp_13" />
+
+            <TextView
+                android:id="@+id/txt_sys_english"
+                android:layout_width="@dimen/dp_75"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txt_sys_xinhao"
+                android:layout_marginTop="@dimen/dp_15"
+                android:text="英文名称"
+                android:textColor="#B4B4B4"
+                android:textSize="@dimen/sp_13" />
+
+            <TextView
+                android:id="@+id/txt_english"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/txt_sys_english"
+                android:layout_toRightOf="@+id/txt_sys_english"
+                android:text="xxxxx"
+                android:textColor="@color/black1b"
+                android:textSize="@dimen/sp_13" />
+
+
+            <TextView
+                android:id="@+id/txt_sys_china"
+                android:layout_width="@dimen/dp_75"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txt_sys_english"
+                android:layout_marginTop="@dimen/dp_15"
+                android:text="汉语拼音"
+                android:textColor="#B4B4B4"
+                android:textSize="@dimen/sp_13" />
+
+            <TextView
+                android:id="@+id/txt_china"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/txt_sys_china"
+                android:layout_toRightOf="@+id/txt_sys_china"
+                android:text="xxxxx"
+                android:textColor="@color/black1b"
+                android:textSize="@dimen/sp_13" />
+
+
+            <TextView
+                android:id="@+id/txt_sys_youxiao"
+                android:layout_width="@dimen/dp_75"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txt_sys_china"
+                android:layout_marginTop="@dimen/dp_15"
+                android:text="有效期"
+                android:textColor="#B4B4B4"
+                android:textSize="@dimen/sp_13" />
+
+            <TextView
+                android:id="@+id/txt_youxiao"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/txt_sys_youxiao"
+                android:layout_toRightOf="@+id/txt_sys_youxiao"
+                android:text="24个月"
+                android:textColor="@color/black1b"
+                android:textSize="@dimen/sp_13" />
+
+            <TextView
+                android:id="@+id/txt_sys_company"
+                android:layout_width="@dimen/dp_75"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txt_sys_youxiao"
+                android:layout_marginTop="@dimen/dp_15"
+                android:text="生产企业"
+                android:textColor="#B4B4B4"
+                android:textSize="@dimen/sp_13" />
+
+            <TextView
+                android:id="@+id/txt_company"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/txt_sys_company"
+                android:layout_toRightOf="@+id/txt_sys_company"
+                android:text="24个月"
+                android:textColor="@color/black1b"
+                android:textSize="@dimen/sp_13" />
+        </RelativeLayout>
+    </LinearLayout>
+
+</layout>
